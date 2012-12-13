@@ -1,0 +1,19 @@
+set tags=~/.tags
+set nonumber
+set relativenumber
+
+imap jk  <esc>
+imap kj <esc>
+
+vmap <leader>F y :Ack <c-r>0<cr>
+vmap > >gv 
+vmap < <gv
+
+set wildignore+=*/tmp*
+
+color jellybeans
+
+let $LOCALVIMRC = $HOME.'/.vimrc.local'
+if filereadable($LOCALVIMRC)
+  source $LOCALVIMRC
+endif
