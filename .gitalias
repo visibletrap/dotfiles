@@ -1,0 +1,13 @@
+[alias]
+  b = branch
+  cb = checkout -b
+  ci = commit
+  co = checkout
+  s = status
+  ap = add -p
+  cb = checkout -b
+  sh = stash
+  shp = stash pop
+  pl = pull
+  ps = push
+  pr = pull --rebase
