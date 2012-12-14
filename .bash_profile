@@ -11,7 +11,7 @@ alias dl='cd ~/Downloads'
 alias d='cd ~/development'
 
 alias gs='g s'
-alias gg="git pr && git pom"
+alias gg="git pr && git ps"
 alias gd='git diff'
 alias ga='git commit --amend'
 
