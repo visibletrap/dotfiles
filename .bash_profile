@@ -7,9 +7,13 @@ alias t='tmux'
 alias r='rails'
 
 alias dt='cd ~/Desktop'
+alias dl='cd ~/Downloads'
 alias d='cd ~/development'
 
 alias gs='g s'
+alias gg="git pr && git pom"
+alias gd='git diff'
+alias ga='git commit --amend'
 
 alias reloadsh='source ~/.bash_profile'
 
