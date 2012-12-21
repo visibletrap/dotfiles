@@ -4,6 +4,7 @@ set relativenumber
 
 let g:buffergator_viewport_split_policy='T'
 let g:buffergator_split_size=15
+let g:buffergator_sort_regime='mru'
 
 imap jk  <esc>
 imap kj <esc>
