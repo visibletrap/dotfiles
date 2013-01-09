@@ -2,3 +2,4 @@ let mapleader = ','
 set gfn=Monaco:h13
 let vimclojure#WantNailgun = 1
 let vimclojure#NailgunClient = "/Users/tap/Softwares/vimclojure-nailgun-client/ng"
+let g:buffergator_sort_regime = "mru"
