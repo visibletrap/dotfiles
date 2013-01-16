@@ -12,6 +12,8 @@ vmap <leader>F y :Ack <c-r>0<cr>
 vmap > >gv 
 vmap < <gv
 
+map <C-P> :CtrlPMRU<cr>
+
 set wildignore+=*/tmp*
 
 color jellybeans
