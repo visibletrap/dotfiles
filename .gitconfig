@@ -1,0 +1,9 @@
+[color]
+  ui = true
+[core]
+  editor = vim
+	excludesfile = /Users/viki/.gitignore_global
+[push]
+	default = simple
+[include]
+  path = ~/.gitalias
