@@ -7,3 +7,4 @@
 	default = simple
 [include]
   path = ~/.gitalias
+  path = ~/.gitconfig_local
