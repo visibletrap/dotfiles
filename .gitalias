@@ -2,8 +2,10 @@
   b = branch
   cb = checkout -b
   ci = commit
+  ca = commit --amend
   co = checkout
   s = status
+  aa = add -A
   ap = add -p
   cb = checkout -b
   sh = stash

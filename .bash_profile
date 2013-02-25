@@ -12,8 +12,9 @@ alias dl='cd ~/Downloads'
 
 alias gs='g s'
 alias gd='git diff'
+alias gdc='git diff --cached'
 alias gg="git pr && git ps"
-alias ga='git commit --amend'
+alias gl='g log'
 
 alias reloadsh='source ~/.bash_profile'
 
