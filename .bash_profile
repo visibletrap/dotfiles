@@ -22,7 +22,7 @@ export PS1="\w \[\033[36m\]\$\[\033[00m\] "
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin/:$PATH
 
 if [ -f ~/.bash_profile.local ];
 then
