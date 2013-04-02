@@ -2,7 +2,7 @@
   ui = true
 [core]
   editor = vim
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/viki/.gitignore_global
 [push]
 	default = simple
 [include]
