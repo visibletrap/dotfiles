@@ -13,3 +13,4 @@
   pl = pull
   ps = push
   pr = pull --rebase
+  r = rebase
