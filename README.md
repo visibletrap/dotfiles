@@ -1,7 +1,5 @@
-Require manually adding these lines to .gitconfig
+Installation
 ```
-[include]
-  path = /Users/tap/.gitalias
+cd ~
+git clone git://github.com/visibletrap/dotfiles.git .
 ```
-
-Enabled mouse for Terminal.app with https://bitheap.org/mouseterm/
