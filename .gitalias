@@ -2,6 +2,7 @@
   b = branch
   cb = checkout -b
   ci = commit
+  cm = commit -m
   ca = commit --amend
   co = checkout
   s = status
