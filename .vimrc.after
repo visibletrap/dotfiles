@@ -12,6 +12,7 @@ vmap < <gv
 
 set wildignore+=*/tmp*
 set relativenumber
+set nonumber
 
 color jellybeans
 
