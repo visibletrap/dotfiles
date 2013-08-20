@@ -21,6 +21,7 @@ alias reloadsh='source ~/.bash_profile'
 export PS1="\w \[\033[36m\]\$\[\033[00m\] "
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+export EDITOR=vi
 
 export PATH=/usr/local/bin:/usr/local/sbin/:$PATH
 
