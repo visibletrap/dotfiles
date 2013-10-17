@@ -23,6 +23,8 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export EDITOR=vi
 
+export EDITOR=vi
+
 export PATH=/usr/local/bin:/usr/local/sbin/:$PATH
 
 if [ -f ~/.bash_profile.local ];
