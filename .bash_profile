@@ -1,4 +1,3 @@
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function:
 
 alias ls='ls -G'
 
@@ -29,3 +28,5 @@ if [ -f ~/.bash_profile.local ];
 then
   source ~/.bash_profile.local
 fi
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
