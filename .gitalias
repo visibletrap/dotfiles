@@ -3,9 +3,11 @@
   cb = checkout -b
   ci = commit
   cm = commit -m
+  cm = commit -am
   ca = commit --amend
   co = checkout
   s = status
+  so = show
   aa = add -A
   ap = add -p
   cb = checkout -b
@@ -15,3 +17,4 @@
   ps = push
   pr = pull --rebase
   r = rebase
+  ri = rebase -i
