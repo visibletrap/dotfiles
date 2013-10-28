@@ -3,7 +3,7 @@
   cb = checkout -b
   ci = commit
   cm = commit -m
-  cm = commit -am
+  cam = commit -am
   ca = commit --amend
   co = checkout
   s = status
@@ -18,3 +18,5 @@
   pr = pull --rebase
   r = rebase
   ri = rebase -i
+  l = log
+  lp = log -p
