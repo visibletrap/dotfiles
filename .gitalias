@@ -5,6 +5,7 @@
   cm = commit -m
   cam = commit -am
   ca = commit --amend
+  car = commit --amend --reset-author
   co = checkout
   s = status
   so = show
