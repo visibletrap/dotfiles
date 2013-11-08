@@ -4,6 +4,9 @@ let g:buffergator_sort_regime = "mru"
 let g:ctrlp_working_path_mode = 'a'
 
 call janus#disable_plugin('dispatch')
+call janus#disable_plugin('gist')
 call janus#disable_plugin('easymotion')
+call janus#disable_plugin('vimwiki')
+call janus#disable_plugin('indent-object')
 call janus#disable_plugin('fugitive')
 call janus#disable_plugin('vroom')
