@@ -18,3 +18,8 @@ let $LOCALVIMRC = $HOME.'/.vimrc.local'
 if filereadable($LOCALVIMRC)
   source $LOCALVIMRC
 endif
+
+let $CUSTOMIZEVIMRC = '.vimrc.customize'
+if filereadable($CUSTOMIZEVIMRC)
+  source $CUSTOMIZEVIMRC
+endif
