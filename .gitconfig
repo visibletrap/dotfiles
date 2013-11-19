@@ -8,3 +8,5 @@
 [include]
   path = ~/.gitalias
   path = ~/.gitconfig_local
+[github]
+  user = visibletrap
