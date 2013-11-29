@@ -14,6 +14,8 @@ alias gd='git diff'
 alias gdc='git diff --cached'
 alias gg="git pr && git ps"
 alias gl='g log'
+alias glp='gl -p'
+alias gso='g show'
 
 alias reloadsh='source ~/.bash_profile'
 
