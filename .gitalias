@@ -10,7 +10,7 @@
   s = status
   so = show
   a = add
-  aa = add -A
+  aa = add -A :/
   ap = add -p
   cb = checkout -b
   sh = stash

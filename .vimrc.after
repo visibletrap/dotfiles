@@ -10,7 +10,7 @@ vmap < <gv
 set wildignore+=*/tmp*
 set number
 
-#color winter
+"color winter
 color synic
 
 let $LOCALVIMRC = $HOME.'/.vimrc.local'
