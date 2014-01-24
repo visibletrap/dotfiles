@@ -2,6 +2,7 @@ let mapleader = ','
 set gfn=Monaco:h13
 let g:buffergator_sort_regime = "mru"
 let g:ctrlp_working_path_mode = 'a'
+let g:syntastic_mode_map = { 'passive_filetypes': ['html'] }
 
 call janus#disable_plugin('dispatch')
 call janus#disable_plugin('easymotion')

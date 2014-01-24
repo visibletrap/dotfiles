@@ -8,11 +8,10 @@ vmap > >gv
 vmap < <gv
 
 set wildignore+=*/tmp*
-set relativenumber
-set nonumber
+set number
 
-color molokai
-"color jellybeans+
+#color winter
+color synic
 
 let $LOCALVIMRC = $HOME.'/.vimrc.local'
 if filereadable($LOCALVIMRC)

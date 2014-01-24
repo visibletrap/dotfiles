@@ -9,6 +9,7 @@
   co = checkout
   s = status
   so = show
+  a = add
   aa = add -A
   ap = add -p
   cb = checkout -b
