@@ -13,6 +13,8 @@ set number
 "color winter
 color synic
 
+au FileType javascript set tabstop=4 shiftwidth=4 noexpandtab
+
 let $LOCALVIMRC = $HOME.'/.vimrc.local'
 if filereadable($LOCALVIMRC)
   source $LOCALVIMRC
