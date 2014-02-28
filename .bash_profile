@@ -23,6 +23,7 @@ export PS1="\w \[\033[36m\]\$\[\033[00m\] "
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export EDITOR=vi
+export HISTFILESIZE=2500
 
 export PATH=/usr/local/bin:/usr/local/sbin/:$PATH
 

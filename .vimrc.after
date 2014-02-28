@@ -12,6 +12,7 @@ set number
 
 "color winter
 color synic
+set cursorline
 
 au FileType javascript set tabstop=4 shiftwidth=4 noexpandtab
 
