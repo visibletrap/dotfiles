@@ -15,7 +15,8 @@ color synic
 set cursorline
 hi Cursorline ctermbg=17
 
-au FileType javascript set tabstop=4 shiftwidth=4 noexpandtab
+au FileType javascript set tabstop=2 shiftwidth=2 noexpandtab
+au FileType html set tabstop=2 shiftwidth=2 noexpandtab
 
 let $LOCALVIMRC = $HOME.'/.vimrc.local'
 if filereadable($LOCALVIMRC)

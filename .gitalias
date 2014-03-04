@@ -18,6 +18,7 @@
   pl = pull
   ps = push
   pr = pull --rebase
+  prp = pull --rebase -p
   r = rebase
   ri = rebase -i
   l = log
