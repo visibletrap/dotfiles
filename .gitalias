@@ -1,5 +1,7 @@
 [alias]
   b = branch
+  br = branch -r
+  ba = branch -a
   cb = checkout -b
   ci = commit
   cm = commit -m
