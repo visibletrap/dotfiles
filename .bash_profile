@@ -4,6 +4,7 @@ alias ls='ls -G'
 alias g='git'
 alias t='tmux'
 alias r='rails'
+alias b='bundle'
 
 alias h='cd ~'
 alias dt='cd ~/Desktop'
@@ -17,15 +18,18 @@ alias gl='g log'
 alias glp='gl -p'
 alias gso='g show'
 
+alias cf='cd frontend && grunt && cd ..'
+alias lp='lein repl'
+
 alias reloadsh='source ~/.bash_profile'
 
 export PS1="\w \[\033[36m\]\$\[\033[00m\] "
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export EDITOR=vi
-export HISTFILESIZE=2500
+export HISTFILESIZE=5000
 
-export PATH=/usr/local/bin:/usr/local/sbin/:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 if [ -f ~/.bash_profile.local ];
 then

@@ -2,6 +2,7 @@
   b = branch
   br = branch -r
   ba = branch -a
+  bd = branch -d
   cb = checkout -b
   ci = commit
   cm = commit -m
@@ -9,12 +10,13 @@
   ca = commit --amend
   car = commit --amend --reset-author
   co = checkout
+  cof = checkout -f
+  com = checkout master
   s = status
   so = show
   a = add
   aa = add -A :/
   ap = add -p
-  cb = checkout -b
   sh = stash
   shp = stash pop
   pl = pull
