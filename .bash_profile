@@ -3,8 +3,10 @@ alias ls='ls -G'
 
 alias g='git'
 alias t='tmux'
-alias r='rails'
+alias r='bin/rails'
 alias b='bundle'
+alias s='ssh'
+alias rs='bin/rspec'
 
 alias h='cd ~'
 alias dt='cd ~/Desktop'
