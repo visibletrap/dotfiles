@@ -4,7 +4,7 @@ let g:buffergator_split_size=15
 imap jk  <esc>
 imap kj <esc>
 
-vmap > >gv 
+vmap > >gv
 vmap < <gv
 
 set wildignore+=*/tmp*
