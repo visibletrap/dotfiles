@@ -23,6 +23,7 @@ alias gso='g show'
 
 alias dr="d run"
 alias dpa="d ps -a"
+alias di="d images"
 dsr() {
 	d stop "$1" && d rm "$1"
 }
@@ -35,6 +36,7 @@ alias lp='lein repl'
 
 alias reloadsh='source ~/.bash_profile'
 alias srm='ssh -N -L localhost:15672:localhost:15672 sdk'
+alias sd='say done'
 
 export PS1="\w \[\033[36m\]\$\[\033[00m\] "
 export CLICOLOR=1

@@ -9,13 +9,14 @@ vmap < <gv
 
 set wildignore+=*/tmp*
 set number
+set scrolloff=2
 
 "color winter
 color synic
 set cursorline
 hi Cursorline ctermbg=17
 
-au FileType javascript set tabstop=4 shiftwidth=4 noexpandtab
+"au FileType javascript set tabstop=4 shiftwidth=4 noexpandtab
 au FileType html set tabstop=4 shiftwidth=4 noexpandtab
 au FileType sh set tabstop=4 shiftwidth=4 noexpandtab
 
