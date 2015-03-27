@@ -10,6 +10,7 @@ vmap < <gv
 set wildignore+=*/tmp*
 set number
 set scrolloff=2
+set sidescroll=1
 
 "color winter
 color synic
