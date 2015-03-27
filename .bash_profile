@@ -47,6 +47,10 @@ export HISTFILESIZE=5000
 
 export PATH=~/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
 if [ -f ~/.bash_profile.local ];
 then
   source ~/.bash_profile.local
@@ -54,4 +58,5 @@ fi
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-source ~/.git-completion.sh
+source ~/.git-completion.bash
+source ~/.docker-completion.sh
