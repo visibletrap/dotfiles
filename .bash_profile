@@ -45,7 +45,7 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 export EDITOR=vi
 export HISTFILESIZE=5000
 
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=~/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
 if [ -f ~/.bash_profile.local ];
 then
