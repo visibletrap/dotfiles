@@ -10,3 +10,6 @@
   path = ~/.gitconfig_local
 [github]
   user = visibletrap
+[user]
+	email = visibletrap@gmail.com
+	name = Tap
