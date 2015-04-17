@@ -33,6 +33,7 @@ ds() {
 
 alias cf='cd frontend && grunt && cd ..'
 alias lp='lein repl'
+alias ctags="`brew --prefix`/bin/ctags"
 
 alias reloadsh='source ~/.bash_profile'
 alias srm='ssh -N -L localhost:15672:localhost:15672 sdk'
