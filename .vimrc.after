@@ -8,7 +8,7 @@ vmap > >gv
 vmap < <gv
 
 set wildignore+=*/tmp*
-set number
+set relativenumber
 set scrolloff=2
 set sidescroll=1
 
