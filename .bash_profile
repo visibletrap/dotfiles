@@ -23,6 +23,7 @@ alias glp='gl -p'
 alias gso='g show'
 
 alias dr="d run"
+alias dp="d ps"
 alias dpa="d ps -a"
 alias di="d images"
 dsr() {
