@@ -8,6 +8,7 @@ alias b='bundle'
 alias s='ssh'
 alias rs='bin/rspec'
 alias d='docker'
+alias dkc='docker-compose'
 
 alias h='cd ~'
 alias dt='cd ~/Desktop'
