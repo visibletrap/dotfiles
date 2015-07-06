@@ -22,6 +22,7 @@
   shp = stash pop
   pl = pull
   ps = push
+  pfl = push --force-with-lease
   pr = pull --rebase
   prp = pull --rebase -p
   r = rebase
