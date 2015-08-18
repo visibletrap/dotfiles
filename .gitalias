@@ -29,3 +29,4 @@
   ri = rebase -i
   l = log
   lp = log -p
+  rom = reset --hard origin/master
