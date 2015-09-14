@@ -12,8 +12,8 @@ set relativenumber
 set scrolloff=2
 set sidescroll=1
 
-"color winter
-color synic
+"color synic
+color summerfruit256
 set cursorline
 hi Cursorline ctermbg=17
 
