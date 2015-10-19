@@ -38,9 +38,9 @@ alias lp='lein repl'
 alias ctags="`brew --prefix`/bin/ctags"
 
 alias reloadsh='source ~/.bash_profile'
-alias srm='ssh -N -L localhost:15672:localhost:15672 sdk'
 alias sd='say done'
 alias be='$(boot2docker shellinit)'
+alias st='pbpaste | highlight -O rtf -S clojure -s acid | pbcopy'
 
 export PS1="\w \[\033[36m\]\$\[\033[00m\] "
 export CLICOLOR=1

@@ -14,11 +14,11 @@ set sidescroll=1
 
 "color synic
 color summerfruit256
-set cursorline
-hi Cursorline ctermbg=17
+"set cursorline
+"hi Cursorline ctermbg=17
 
 "au FileType javascript set tabstop=4 shiftwidth=4 noexpandtab
-au FileType html set tabstop=4 shiftwidth=4 noexpandtab
+"au FileType html set tabstop=4 shiftwidth=4 noexpandtab
 "au FileType sh set tabstop=4 shiftwidth=4 noexpandtab
 
 let $LOCALVIMRC = $HOME.'/.vimrc.local'
