@@ -13,3 +13,5 @@
 [user]
 	email = visibletrap@gmail.com
 	name = Tap
+[diff]
+  compactionHeuristic = true

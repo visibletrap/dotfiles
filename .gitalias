@@ -12,6 +12,7 @@
   co = checkout
   cof = checkout -f
   com = checkout master
+  m = merge
   f = fetch
   s = status
   so = show
