@@ -43,7 +43,7 @@ ds() {
 
 alias ruby_webserver='ruby -run -ehttpd . -p8000'
 alias p='planck'
-alias c='rlwrap java -jar ~/.m2/repository/org/clojure/clojure/1.9.0-alpha8/clojure-1.9.0-alpha8.jar'
+alias c='rlwrap java -jar ~/.m2/repository/org/clojure/clojure/1.9.0-alpha9/clojure-1.9.0-alpha9.jar'
 alias f='rlwrap lein figwheel'
 
 alias y='youtube-dl'
