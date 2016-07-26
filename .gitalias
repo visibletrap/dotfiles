@@ -3,6 +3,7 @@
   br = branch -r
   ba = branch -a
   bd = branch -d
+  bm = branch -m
   cl = clone
   cb = checkout -b
   ci = commit
