@@ -30,6 +30,7 @@
   prp = pull --rebase -p
   r = rebase
   ri = rebase -i
+  rh = reset --hard
   l = log
   lp = log -p
   rom = reset --hard origin/master
