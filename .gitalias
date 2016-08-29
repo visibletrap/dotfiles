@@ -31,6 +31,6 @@
   r = rebase
   ri = rebase -i
   rh = reset --hard
-  rom = reset --hard origin/master
+  rhr = reset --hard @{u}
   l = log
   lp = log -p
