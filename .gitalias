@@ -9,12 +9,13 @@
   ci = commit
   cm = commit -m
   cam = commit -am
-  ca = commit --amend
-  car = commit --amend --reset-author
+  ca = commit --amend --reset-author
   co = checkout
-  cof = checkout -f
+  cf = checkout -f
   com = checkout master
+  c = checkout -
   m = merge
+  mof = merge --no-ff
   f = fetch
   s = status
   so = show
@@ -30,6 +31,7 @@
   prp = pull --rebase -p
   r = rebase
   ri = rebase -i
+  rs = reset
   rh = reset --hard
   rhr = reset --hard @{u}
   l = log
