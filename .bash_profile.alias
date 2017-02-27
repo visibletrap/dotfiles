@@ -29,7 +29,6 @@ alias gso='g show'
 
 alias d='docker'
 alias dkc='docker-compose'
-alias dm='docker-machine'
 alias dr="d run"
 alias dp="d ps"
 alias dpa="d ps -a"
@@ -40,10 +39,11 @@ dsr() {
 ds() {
   d exec -it $1 /bin/bash
 }
+alias docker_remove_orphan_images='docker images -f "dangling=true" -q | xargs docker rmi'
 
 alias ruby_webserver='ruby -run -ehttpd . -p8000'
 alias p='planck'
-alias c='rlwrap java -jar ~/.m2/repository/org/clojure/clojure/1.9.0-alpha12/clojure-1.9.0-alpha12.jar'
+alias c='rlwrap java -jar ~/.m2/repository/org/clojure/clojure/1.9.0-alpha14/clojure-1.9.0-alpha14.jar'
 alias f='rlwrap lein figwheel'
 
 alias y='youtube-dl'

@@ -31,6 +31,8 @@
   prp = pull --rebase -p
   r = rebase
   ri = rebase -i
+  rc = rebase --continue
+  ra = rebase --abort
   rs = reset
   rh = reset --hard
   rhr = reset --hard @{u}
