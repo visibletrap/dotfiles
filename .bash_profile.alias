@@ -1,12 +1,14 @@
 alias ls='ls -G'
 alias reloadsh='source ~/.bash_profile'
 
+alias a='axel'
 alias e='emacs'
 alias t='tmux'
 alias s='ssh'
 alias r='bin/rails'
 alias b='bundle'
 alias rs='bin/rspec'
+alias ms='mosh'
 
 alias h='cd ~'
 alias dt='cd ~/Desktop'
