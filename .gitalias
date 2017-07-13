@@ -27,6 +27,8 @@
   shp = stash pop
   pl = pull
   ps = push
+  pd = push --delete
+  pu = push -u
   pfl = push --force-with-lease
   pr = pull --rebase
   prp = pull --rebase -p
@@ -35,6 +37,7 @@
   rc = rebase --continue
   ra = rebase --abort
   rs = reset
+  rss = reset --soft
   rh = reset --hard
   rhr = reset --hard @{u}
   l = log
