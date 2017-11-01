@@ -28,6 +28,7 @@
   pl = pull
   ps = push
   pd = push --delete
+  pdo = push --delete origin
   pu = push -u
   pfl = push --force-with-lease
   pr = pull --rebase

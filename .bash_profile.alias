@@ -28,6 +28,7 @@ alias gdc='git diff --cached'
 alias gl='g log'
 alias glp='gl -p'
 alias gso='g show'
+alias gco='g co'
 
 alias d='docker'
 alias dkc='docker-compose'
@@ -45,9 +46,9 @@ alias docker_remove_orphan_images='docker images -f "dangling=true" -q | xargs d
 
 alias ruby_webserver='ruby -run -ehttpd . -p8000'
 alias p='planck'
-alias c='rlwrap java -cp /Users/tap/.m2/repository/org/clojure/clojure/1.9.0-alpha17/clojure-1.9.0-alpha17.jar:/Users/tap/.m2/repository/org/clojure/spec.alpha/0.1.123/spec.alpha-0.1.123.jar:/Users/tap/.m2/repository/org/clojure/core.specs.alpha/0.1.10/core.specs.alpha-0.1.10.jar clojure.main'
+alias c='rlwrap java -cp /Users/tap/.m2/repository/org/clojure/clojure/1.9.0-beta3/clojure-1.9.0-beta3.jar:/Users/tap/.m2/repository/org/clojure/spec.alpha/0.1.134/spec.alpha-0.1.134.jar:/Users/tap/.m2/repository/org/clojure/core.specs.alpha/0.1.24/core.specs.alpha-0.1.24.jar clojure.main'
 alias f='rlwrap lein figwheel'
-alias n='BOOT_CLOJURE_VERSION=1.9.0-alpha17 boot repl'
+alias n='BOOT_CLOJURE_VERSION=1.9.0-beta3 boot repl'
 
 alias y='youtube-dl'
 alias sd='say done'
