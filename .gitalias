@@ -3,6 +3,7 @@
   br = branch -r
   ba = branch -a
   bd = branch -d
+  bD = branch -D
   bm = branch -m
   cl = clone
   cb = checkout -b
@@ -23,6 +24,7 @@
   a = add
   aa = add -A :/
   ap = add -p
+  ach = archive --format=zip HEAD -o
   sh = stash
   shp = stash pop
   pl = pull
@@ -34,6 +36,7 @@
   pr = pull --rebase
   prp = pull --rebase -p
   r = rebase
+  rbm = rebase master
   ri = rebase -i
   rc = rebase --continue
   ra = rebase --abort
